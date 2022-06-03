@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Helvetica;
+}
+body{
+    max-width: 1000px;
+    margin: auto;
+    background-color: black;
+}
+header{
+    background-color:#ecceab ;
+    font-family:Helvetica;
+    text-align: center;
+    font-size: 26px;
+    padding: 60px;
+    padding-bottom: 40px;
+
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.menuitens {
+    display: inline;
+    float: left;
+    color: white;
+    text-align: center;
+    padding:10px 10px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.menuitens:hover{
+    background-color: #ecceab;
+    border: solid;
+    border-color:  #302e2e48;
+    border-radius: 15px;
+    opacity: 0.8;
+    padding: 7px;
+    margin: 0px;
+    margin-left: 20px;
+   
+}
+#sobre{
+    background-color:#ecceab;
+    border-color: #000000;
+    padding: 10px;
+    border: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px;
+}
+.menu{
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: solid;
+    border-top: none;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    width: 1000px;
+}
+.titulo{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-top: 0px;
+
+}
+.fpresentes{
+    background-color:#ecceab;
+    border: solid;
+    border-top: 0px;
+    padding: 15px;
+    height: 500px;
+    
+}
+input{
+    border:none;
+    background-color:#F6E7D6;
+    padding: 5px;
+    width: 400px;
+    
+}
+#entrar{
+    border:none;
+    background-color:#F6E7D6;
+    padding: 5px;
+    width: 400px;
+    font-weight: bold;
+}
+#gift {
+    width: 150px;
+    margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+}
+
+.presente{
+    margin-right: 10%;
+    border: solid;
+    border-color:  #302e2e48;
+    border-radius: 15px;
+    opacity: 0.8;
+    background-color:#fffefea6;
+    padding: 10px;
+    float: right;
+    margin-bottom: 3%;
+    width: 500px;
+    font-weight: bold;
+    
+
+
+}
+#nomepresente {
+    margin-top: 5%;
+}
+
+#entrar:hover {
+    background-color: #ffffff;}
+    footer{
+        background-color:white;
+        padding: 20px;
+        height: 50px;
+        border: solid;
+    }
+    .rodape{
+        height: 15px;
+        font-size: 20px;
+        list-style-type:  none;
+        float:left;
+        text-align: left;
+        margin-left: 15px;
+        border-style: solid;
+        border-width:0px 2px 0px 0px;
+        padding: 10px;
+    }
+    .linkRodape{
+        color: black;
+        text-decoration: none;
+    
+    }
+    .linkRodape:hover{
+    background-color:#fff4e6;
+    border: solid 0;
+    border-radius: 10px; 
+    }
+    @media screen and (max-width:1000px){
+    
+    
+        footer {
+            box-sizing: border-box;
+            margin: auto;
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+        }
+        .rodape {
+            margin: auto;
+            height: auto;
+            width: auto;
+        }
+        .menu {
+            box-sizing: border-box;
+            margin: auto;
+            width: 100%;
+            display: inline-block;
+        }
+        .menuitens {
+            margin: auto;
+            height: auto;
+            width: auto;
+        }
+        .presente{
+            margin: 10px;
+            height: auto;
+            width: auto;
+            box-sizing: border-box;
+        }
+        #entrar{
+            margin: auto;
+            height: auto;
+            width: auto;
+        }
+        #gift{
+            display: block;
+            margin: center;
+            padding: center;
+            text-align: center;
+            margin-left: 150px;
+           
+        }
+  }  
