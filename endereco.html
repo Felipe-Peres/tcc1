@@ -7,18 +7,21 @@
     <title>ENDEREÇO</title>
     <link rel="stylesheet" href="endereco.css">
     <link rel="icon" href="../images/iconeSite.png"  class="iconeTitulo"  width 16px; alt="image.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-    <div >
-        <ul class="menu">
-            <li class="menuitens"><a href="home.html">HOME</a></li>
-            <li class="menuitens"><a href="endereco.html">ENDEREÇO</a></li>
-            <li class="menuitens"><a href="presentes.html">PRESENTES</a></li>
-            <li class="menuitens"><a href="RSVP.html">RSVP</a></li>
-            <li style="float: right;"  id="sobre"><a href="sobre.html">SOBRE NÓS</a></li>
-          </ul>
-    </div>
+  <div class="topnav" id="myTopnav">
+    <a href="sobre.html" id-="sobre"  class="active">SOBRE NÓS</a>
+    <a href="home.html" >INICIO</a>
+    <a href="endereco.html">ENDERECO E HORA</a>
+    <a href="presentes.html">PRESENTES</a>
+    <a href="RSVP.html">RSVP</a>
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 
     <header class= "titulo"><h1 class = "title">ENDEREÇO E HORA<img src="../images/icon.png"  class="iconeTitulo" alt="heart"><h1>
     </header>
@@ -45,4 +48,16 @@
         <li class="rodape">Este site foi desenvolvido por FelipePeres</li>
     </ul>
 </footer>
+<script>
+  function myFunction() {
+       var x = document.getElementById("myTopnav");
+       if (x.className === "topnav") {
+       x.className += " responsive";
+      } else {
+       x.className = "topnav";
+     }
+   }
+ </script>
+ 
+
 </html>
