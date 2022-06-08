@@ -11,14 +11,16 @@ body{
 header{
     background-color:#ecceab ;
     font-family:Helvetica;
-    text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     text-align: center;
     padding: 60px;
     padding-bottom: 40px;
 
 }
-
+header h1{
+    margin: 0px;
+    box-sizing: border-box;
+}
 .fpresentes{
     background-color:#ecceab;
     padding: 15px;
@@ -186,9 +188,9 @@ input{
   }
   
   @media screen and (max-width: 660px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {position: fixed;}
     .topnav.responsive .icon {
-      position: relative;
+      position: fixed;
       right: 0;
       top: 0;
     }

@@ -12,7 +12,7 @@ header{
     background-color:#ecceab ;
     font-family:Helvetica;
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     text-align: center;
     padding: 60px;
     padding-bottom: 40px;
@@ -61,7 +61,7 @@ input[type=tel] {
     width: 97%;
 }
 input[type=number] {
-    width: 20px;
+    width: 40px;
 }
 input[type=name] {
     width: 97%;
@@ -191,7 +191,7 @@ border-radius: 10px;
   }
   
   @media screen and (max-width: 660px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {position: fixed;}
     .topnav.responsive .icon {
       position: relative;
       right: 0;
