@@ -193,7 +193,7 @@ border-radius: 10px;
   @media screen and (max-width: 660px) {
     .topnav.responsive {position: fixed;}
     .topnav.responsive .icon {
-      position: relative;
+      position: fixed;
       right: 0;
       top: 0;
     }
