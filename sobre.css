@@ -164,10 +164,12 @@ border-radius: 10px;
   .topnav a:hover {
     background-color: #ecceab;
     border: solid;
+    border-width: 0px;
+    border-radius: 10px;
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #946846;
     color: white;
   }
   
@@ -195,4 +197,13 @@ border-radius: 10px;
       display: block;
       text-align: left;
     }
+    .rodape{
+      float: none;
+      display: inline-block;
+      font-size: 18px;
+      padding: 2px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+  }
   }

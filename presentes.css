@@ -82,11 +82,12 @@ header{
     height: 500px;
     
 }
+
 input{
     border:none;
     background-color:#F6E7D6;
     padding: 5px;
-    width: 400px;
+    width: 100%;
     
 }
 #entrar{
@@ -154,30 +155,6 @@ input{
     }
     @media screen and (max-width:1000px){
     
-    
-        footer {
-            box-sizing: border-box;
-            margin: auto;
-            height: 100%;
-            width: 100%;
-            display: inline-block;
-        }
-        .rodape {
-            margin: auto;
-            height: auto;
-            width: auto;
-        }
-        .menu {
-            box-sizing: border-box;
-            margin: auto;
-            width: 100%;
-            display: inline-block;
-        }
-        .menuitens {
-            margin: auto;
-            height: auto;
-            width: auto;
-        }
         .presente{
             margin: 10px;
             height: auto;
@@ -191,13 +168,34 @@ input{
         }
         #gift{
             display: block;
-            margin: center;
-            padding: center;
             text-align: center;
-            margin-left: 150px;
-           
+            margin-left: 30%;
         }
-  }
+        footer {
+            box-sizing: border-box;
+            margin: auto;
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+        }
+        .rodape {
+            margin: auto;
+            height: auto;
+            width: auto;
+        }
+        .presente{
+                margin: 10px;
+                height: 100%;
+                width: 100%;
+                box-sizing: border-box;
+             }
+        #entrar{
+            margin: auto;
+            height: auto;
+            width: auto;
+        } 
+}
+
    .topnav {
     overflow: hidden;
     background-color: white;
@@ -223,10 +221,12 @@ input{
   .topnav a:hover {
     background-color: #ecceab;
     border: solid;
+    border-width: 0px;
+    border-radius: 10px;
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #946846;
     color: white;
   }
   
@@ -253,5 +253,14 @@ input{
       float: none;
       display: block;
       text-align: left;
+    }
+    .rodape{
+        float: none;
+        display: inline-block;
+        font-size: 18px;
+        padding: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: none;
     }
   }

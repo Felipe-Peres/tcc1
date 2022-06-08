@@ -266,10 +266,12 @@ border-radius: 10px;
   .topnav a:hover {
     background-color: #ecceab;
     border: solid;
+    border-width: 0px;
+    border-radius: 10px;
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #946846;
     color: white;
   }
   
@@ -297,4 +299,56 @@ border-radius: 10px;
       display: block;
       text-align: left;
     }
+  }
+  @media screen and (max-width: 600px) {
+    .noivo{
+        margin: center;
+        width: 100%;
+
+    }
+    #fotonoivo{
+        float: none;
+        margin-left: 26%;
+        margin-right: 26%;
+    }
+    .htrnoivo{
+        margin: center;
+        max-width: 100%;
+
+    }
+    .noiva{
+        margin: center;
+        width: 100%;
+
+    }
+    #fotonoiva{
+        float: none;
+        margin-left: 26%;
+        margin-right: 26%;
+    }
+    .htrnoiva{
+        margin: center;
+        max-width: 100%;
+    }
+    .casal{
+        margin: center;
+        width: 100%;
+    }
+    .htrcasal{
+        margin: center;
+        max-width: 100%;
+    }
+    .historias h3{
+        text-align: center;
+    }
+    .rodape{
+        float: none;
+        display: inline-block;
+        font-size: 18px;
+        padding: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: none;
+    }
+
   }
