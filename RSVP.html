@@ -6,26 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSVP</title>
     <link rel="stylesheet" href="RSVP.css">
-    <link rel="icon" href="../images/iconeSite.jpg"  class="iconeTitulo"  width 16px; alt="image.jpg">
+    <link rel="icon" href=".\images/iconeSite.jpg"  class="iconeTitulo"  width 16px; alt="image.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
     <div class="topnav" id="myTopnav">
-        <a href="sobre.html" id-="sobre"  class="active">SOBRE NÓS</a>
-        <a href="home.html" >INICIO</a>
+        <a href="home.html" id-="sobre"  class="active">INICIO</a>
         <a href="endereco.html">ENDERECO E HORA</a>
         <a href="presentes.html">PRESENTES</a>
         <a href="RSVP.html">RSVP</a>
+        <a href="sobre.html" >SOBRE NÓS</a>
+
         
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
 
-    <header class= "titulo"><h1 class = "title">RSVP  <img src="../images/icon.jpg"  class="iconeTitulo" alt="heart"><h1>
+    <header class= "titulo"><h1 class = "title">RSVP  <img src=".\images/icon.jpg"  class="iconeTitulo" alt="heart"><h1>
     </header>  
-    <hr style=" height:2px;border-width:0;color:gray;background-color:gray">
     <main>
         <div class="totalform">
             <form  method="post" action="https://hotmail.us18.list-manage.com/subscribe/post?u=79996a330d88740879a074bc3&amp;id=7abd17429a" >
@@ -46,36 +46,35 @@
                     <label for="telefone" >Telefone :</label>
                     <input type="tel" name="TELEFONE" id="telefone"  pattern="[0-9]{2} [0-9]{4} [0-9]{4}" placeholder="formato: 12 3456 1234 (colocar os espaços)"  required></div>
         
-                <div class="formulario">
+                <div class="formulario" >
                     <label for="CPF" >CPF :</label>
                     <input type="text" name="CPF" id="CPF" maxlength="9" minlength="9" required></div>
             
-                <div class="formulario" >
-                    <P>Alergia :</P>                    
+                <div class="formulario"  >
+                    <P>Alergia : </P> <br><br>                
                     <label for="alergia" >Sim</label>
                     <input type="radio" name="ALERGIA" id="alergia" value="sim"  required>
                     <label for="alergia" >Não</label>
                     <input type="radio" name="ALERGIA" id="alergia" value="não"  >
-                    
-                    <label for="qual"   >Se sim qual :</label>
+                    <label for="qual"  id="form1" >Se sim qual :</label>
                     <input type="text" name="QUAL" id="qual" ></div>
    
-                <div class="formulario" >
-                    <P>Familia :</P>
+                <div class="formulario" c >
+                    <P>Familia :</P> <br><br>
                     <label for="familia" >noivo</label>
                     <input type="radio" name="FAMILIA" id="familia" value="noivo"required >
                     <label for="familia" >noiva</label>
                     <input type="radio" name="FAMILIA" id="familia" value="noiva" ></div>
                           
 
-                    <div class="formulario" >
-                        <P>Convidado extra :</P>
+                    <div class="formulario"   >
+                        <P>Convidado extra :</P><br><br>
                         <label for="extra" >Não</label>
                         <input type="radio" name="CONVIDADO" id="extra" value="não" required>
-                        <div><label for="extra" >Sim</label>
+                        <label for="extra" >Sim</label>
                         <input type="radio" name="CONVIDADO" id="extra" value="sim" >
                         
-                        <label for="qtdd"   >Se sim quantos :</label>
+                        <label for="qtdd" >Se sim quantos :</label>
                         <input type="number" name="QTDD" id="qtdd" max="2"  ></div>
                     </div>
                              

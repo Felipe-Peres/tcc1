@@ -2,12 +2,7 @@
     padding: 0;
     margin: 0;
 }
-.titulo{
-    border-style: solid;
-    border-width: 2px;
-    border-color: #000000;
 
-}
 body{
     max-width: 1000px;
     margin: auto;
@@ -30,23 +25,32 @@ header{
     background-image: url('./images/FotoLogin.jpg');
     background-size: cover ;
     padding: 0px;
-    border-style: solid;
-    border-width: 0px 0px 0px 2px;
     overflow: hidden;
     border-color: #000000;
 
 }
 .card{
     max-width: 230px;
-    height: 500px;
-    background-color: #ecceab;;
+    height: 400px;
+    background-color: #beb09c90;;
     background-size: cover ;
     padding: 20px;
     border-style: solid;
-    border-width: 0px 0px 0px 2px;
-    border-radius: 5% 0% 0% 5%;
+    border-width: 2px;
+    border-radius: 5% ;
+    border-color: #b18e72;
     float:right;
-    border-color: #000000;
+    text-align: center;
+    
+
+}
+.entrar{
+    margin-top:60%;
+    margin-bottom:60%;
+    
+}
+.entrar h2, p{
+    margin-bottom: 25px;
 }
 label,input{
     margin-bottom: 20px;
@@ -59,8 +63,9 @@ input{
     border-style: solid;
     margin-top:5px ;
     border-radius: 10px;
-    border-width: 0px;
-    background-color: rgba(144, 150, 150, 0.288);
+    border-width: 2px;
+    border-color: #b18e72;
+    background-color: #beb09c90;
 }
 .card-header{
     margin-bottom: 20px;
@@ -132,7 +137,6 @@ border-radius: 10px;
     .card{
         margin: auto;
         width: auto;
-        height: 400px;
     }
 }
 @media screen and (max-width:580px){

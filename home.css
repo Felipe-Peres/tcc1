@@ -9,7 +9,7 @@ body{
     background-color: black;
 }
 header{
-    background-color:#ecceab ;
+    background-color:#d8af87 ;
     font-family:Helvetica;
     text-align: center;
     font-size: 26px;
@@ -36,7 +36,7 @@ header{
 .menuitens:hover{
     background-color: #ecceab;
     border: solid;
-    border-color:  #302e2e48;
+    border-color:  #b18e72;
     border-radius: 15px;
     opacity: 0.8;
     padding: 7px;
@@ -46,7 +46,7 @@ header{
 }
 #sobre{
     background-color:#ecceab;
-    border-color: #000000;
+    border-color: #b18e72;
     padding: 10px;
     border: solid;
     border-top: 0px;
@@ -67,13 +67,7 @@ header{
     box-sizing: border-box;
     width: 1000px;
 }
-.titulo{
-    border-style: solid;
-    border-width: 2px;
-    border-color: #000000;
-    border-top: 0px;
 
-}
 
 #subtitulo{
     font-size: 20px;
@@ -94,8 +88,7 @@ header{
     background-color: #ecceab;
     max-width: 1000px; 
     padding: 20px;
-    border-style: solid;
-    border-bottom: 2px;
+  
 }
 .historias h3{
     font-weight: bold;
@@ -105,9 +98,10 @@ header{
 .noivo{
     
     border: solid;
+    border-color: #b18e72;
     border-radius: 10px;
     width: 700px;
-    background-color: #fffefea6;
+    background-color: #fff8ee;
     margin-right: 25%;
     margin-left: auto;
     margin-top: 30px;
@@ -133,9 +127,10 @@ header{
     border: solid;
     border-radius: 10px;
     width: 700px;
-    background-color: #fffefea6;
+    background-color: #fff8ee;
     margin-left: 25%;
     margin-top: 30px;
+    border-color:#b18e72;
 
     
 }
@@ -158,8 +153,9 @@ header{
 .casal {
     border: solid;
     border-radius: 10px;
+    border-color:#b18e72;
     max-width: 600px;
-    background-color: #fffefea6;
+    background-color: #fff8ee;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
@@ -174,7 +170,6 @@ footer{
     background-color:white;
     padding: 20px;
     height: 50px;
-    border: solid;
 }
 .rodape{
     height: 15px;
@@ -248,8 +243,7 @@ border-radius: 10px;
     box-sizing: border-box;
     width: 100%;
     max-width: 1000px;
-    border-bottom: solid;
-    border-width: 2px;
+    
   }
   
   .topnav a {
@@ -273,6 +267,9 @@ border-radius: 10px;
   .topnav a.active {
     background-color: #946846;
     color: white;
+    border: solid;
+    border-width: 0px;
+    border-radius: 10px;
   }
   
   .topnav .icon {
@@ -314,6 +311,7 @@ border-radius: 10px;
     .htrnoivo{
         margin: center;
         max-width: 100%;
+        text-align:center;
 
     }
     .noiva{
@@ -329,6 +327,8 @@ border-radius: 10px;
     .htrnoiva{
         margin: center;
         max-width: 100%;
+        text-align:center;
+
     }
     .casal{
         margin: center;
